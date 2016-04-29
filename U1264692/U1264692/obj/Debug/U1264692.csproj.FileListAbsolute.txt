@@ -77,8 +77,8 @@ C:\Users\Jack\Source\Repos\U1264692ADWEB\U1264692\U1264692\bin\Microsoft.Owin.Se
 C:\Users\Jack\Source\Repos\U1264692ADWEB\U1264692\U1264692\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\Jack\Source\Repos\U1264692ADWEB\U1264692\U1264692\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\Jack\Source\Repos\U1264692ADWEB\U1264692\U1264692\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\Jack\Source\Repos\U1264692ADWEB\U1264692\U1264692\obj\Debug\U1264692.csprojResolveAssemblyReference.cache
 C:\Users\Jack\Source\Repos\U1264692ADWEB\U1264692\U1264692\obj\Debug\U1264692.dll
 C:\Users\Jack\Source\Repos\U1264692ADWEB\U1264692\U1264692\obj\Debug\U1264692.pdb
-C:\Users\Jack\Source\Repos\U1264692ADWEB\U1264692\U1264692\obj\Debug\U1264692.Migrations.InitialCreate.resources
+C:\Users\Jack\Source\Repos\U1264692ADWEB\U1264692\U1264692\obj\Debug\U1264692.Migrations.initialcreate.resources
 C:\Users\Jack\Source\Repos\U1264692ADWEB\U1264692\U1264692\obj\Debug\U1264692.csproj.GenerateResource.Cache
+C:\Users\Jack\Source\Repos\U1264692ADWEB\U1264692\U1264692\obj\Debug\U1264692.csprojResolveAssemblyReference.cache
