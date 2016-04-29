@@ -40,7 +40,7 @@ namespace U1264692.Controllers
         // GET: Rentals/Create
         public ActionResult Create()
         {
-            ViewBag.customerID = new SelectList(db.customer, "customerID", "FirstName");
+            ViewBag.customerID = new SelectList(db.customer, "customerID", "FirstName", "LastName");
             ViewBag.MovieID = new SelectList(db.Movies, "MovieID", "FilmTitle");
             return View();
         }
@@ -59,7 +59,7 @@ namespace U1264692.Controllers
                 return RedirectToAction("Index");
             }
 
-            ViewBag.customerID = new SelectList(db.customer, "customerID", "FirstName", rental.customerID);
+            ViewBag.customerID = new SelectList(db.customer, "customerID", "FirstName", "LastName", rental.customerID);
             ViewBag.MovieID = new SelectList(db.Movies, "MovieID", "FilmTitle", rental.MovieID);
             return View(rental);
         }
@@ -76,7 +76,7 @@ namespace U1264692.Controllers
             {
                 return HttpNotFound();
             }
-            ViewBag.customerID = new SelectList(db.customer, "customerID", "FirstName", rental.customerID);
+            ViewBag.customerID = new SelectList(db.customer, "customerID", "FirstName", "LastName", rental.customerID);
             ViewBag.MovieID = new SelectList(db.Movies, "MovieID", "FilmTitle", rental.MovieID);
             return View(rental);
         }
@@ -94,7 +94,7 @@ namespace U1264692.Controllers
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            ViewBag.customerID = new SelectList(db.customer, "customerID", "FirstName", rental.customerID);
+            ViewBag.customerID = new SelectList(db.customer, "customerID", "FirstName", "LastName", rental.customerID);
             ViewBag.MovieID = new SelectList(db.Movies, "MovieID", "FilmTitle", rental.MovieID);
             return View(rental);
         }

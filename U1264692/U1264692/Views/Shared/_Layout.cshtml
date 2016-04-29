@@ -7,11 +7,15 @@
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
     <style>
-        body {
-            background-color: navy;
+        
+        h1 {
+            color: purple;
+        }
+        h2 {
+            color: red;
         }
         p {
-            color: yellow;
+            color: white;
         }
 
     </style>
@@ -30,11 +34,10 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
                     <li>@Html.ActionLink("Manage Customers", "INDEX", "customers")</li>
                     <li>@Html.ActionLink("List Of Movies", "INDEX", "Movies")</li>
                     <li>@Html.ActionLink("Movies Rented", "INDEX", "Rentals")</li>
+                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
                 </ul>
                
             </div>
@@ -44,7 +47,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            <p>&copy; @DateTime.Now.Year - JakAthey LTD.</p>
         </footer>
     </div>
 

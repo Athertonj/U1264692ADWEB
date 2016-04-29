@@ -15,6 +15,9 @@
             @Html.DisplayNameFor(model => model.customer.FirstName)
         </th>
         <th>
+            @Html.DisplayNameFor(model => model.customer.LastName)
+        </th>
+        <th>
             @Html.DisplayNameFor(model => model.Movies.FilmTitle)
         </th>
         <th></th>
@@ -24,6 +27,9 @@
     <tr>
         <td>
             @Html.DisplayFor(modelItem => item.customer.FirstName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.customer.LastName)
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.Movies.FilmTitle)
