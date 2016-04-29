@@ -24,5 +24,6 @@ textarea {
 }
 body {
             background-color: navy;
-            background-image:
+            background-image: url("../images/cinema.jpg");
+            background-repeat: repeat-x;
         }
